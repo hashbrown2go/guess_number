@@ -1,11 +1,11 @@
-
-
 import random
 
-r = random.randint(1, 100)
+start = int(input('請輸入起始值:'))
+end = int(input('請輸入結束值:'))
+r = random.randint(start, end)
 i = 0
 while True:
-	num = input('請輸入一個1~100的整數: ')
+	num = input('輸入一個數字: ')
 	num = int(num)
 	i += 1
 	if num == r:
